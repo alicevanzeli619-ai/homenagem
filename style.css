@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffe6f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8a3d67;
+    padding: 20px;
+}
+
+header{
+    background: #ffd1e8;
+    border: 2px solid #ff69b4;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background: white;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 24px;
+    color: #ff4fa3;
+    font-weight: bold;
+}
+
+.primary-nav{
+    display: flex;
+    gap: 10px;
+}
+
+.primary-nav div{
+    background: #ff69b4;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.search input{
+    padding: 6px;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
+}
+
+.search button{
+    padding: 6px 10px;
+    background: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 140px 1fr 200px;
+    gap: 15px;
+}
+
+.secondary-nav{
+    background: #ffd1e8;
+    border: 2px solid #ff69b4;
+    border-radius: 15px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secondary-nav div{
+    background: white;
+    border: 1px solid #ff69b4;
+    border-radius: 10px;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+main{
+    background: #ffd1e8;
+    border: 2px solid #ff69b4;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+article{
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+article img{
+    border-radius: 10px;
+}
+
+h1{
+    color: #ff4fa3;
+    margin: 15px 0 10px;
+}
+
+h2{
+    color: #ff4fa3;
+    margin: 15px 0 10px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+aside{
+    background: #ffd1e8;
+    border: 2px solid #ff69b4;
+    border-radius: 15px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section{
+    background: white;
+    border: 1px solid #ff69b4;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.related-article{
+    border: 1px solid #ff69b4;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.video{
+    display: flex;
+    margin: auto;
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+footer{
+    background: #ff69b4;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
